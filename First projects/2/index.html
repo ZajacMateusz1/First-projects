@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator napiwków</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Kalkulator napiwków:</h1>
+        <form>
+            <label>Do zapłaty:</label>
+            <input type="number" class="money">
+            <label>Liczba osób:</label>
+            <input type="number" class="people">
+            <label>Napiwek:</label>
+            <select name="" class="tip">
+                <option value="0">Wybierz napiwek</option>
+                <option value="1">10%</option>
+                <option value="2">15%</option>
+                <option value="3">20%</option>
+                <option value="4">25%</option>
+            </select>
+            <button>Oblicz rachunek</button>
+        </form>
+        <p></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

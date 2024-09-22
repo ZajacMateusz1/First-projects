@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+div.wrapper {
+    padding: 5vh 5%;
+    min-height: 80vh;
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 10%;
+    box-shadow: 0 0 3px black;
+}
+div.wrapper h1 {
+    padding: 10% 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label {
+    margin-bottom: 1%;
+}
+form input {
+    margin-bottom: 4%;
+    padding: 1%;
+}
+form select {
+    padding: 1%;
+    margin-bottom: 4%;
+}
+form button {
+    padding: 2%;
+    width: 50%;
+    height: 5%;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+} 
+p {
+    margin-top: 5%;
+}
